@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Head section -->
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intro to Frontend dev (HTML)</title>
 </head>
+<!-- Body section -->
 
 <body>
     <!-- Heading tags ===== comments -->
@@ -18,12 +20,14 @@
 
     <!-- Paragraph tag -->
     <p>This is a paragraph tag</p>
+    <p>This is a recap for html course</p>
 
     <!-- Links  -->
     <a href="https://www.facebook.com" target="_blank">This is a link to facebook.com</a>
     <a href="https://www.instagram.com" target="_blank">This is a link to instagram.com</a>
 
     <!-- Lists  -->
+    <!-- unordered lists -->
     <p>This is a list of fruitts (unordered list)</p>
     <ul>
         <li>Apples</li>
@@ -32,6 +36,7 @@
         <li>Bananas</li>
     </ul>
 
+    <!-- Ordered lists -->
     <p>This is a list of Subjects (ordered list)</p>
     <ol>
         <li>English</li>
@@ -49,6 +54,7 @@
                 <th>Name</th>
                 <th>Age</th>
                 <th>Profession</th>
+                <th>Email</th>
             </tr>
         </thead>
         <!-- Body ===> Main data that corresponds to the table head -->
@@ -58,21 +64,80 @@
                 <td>Jeremy</td>
                 <td>30</td>
                 <td>Developer</td>
+                <td>jeremy@gmail.com</td>
             </tr>
             <!-- Second row -->
             <tr>
                 <td>Mary</td>
                 <td>25</td>
                 <td>Designer</td>
+                <td>mary@yahoo.com</td>
             </tr>
             <!-- Third row -->
             <tr>
                 <td>Azeez</td>
                 <td>35</td>
                 <td>Banker</td>
+                <td>azeez@microsoft.com</td>
             </tr>
         </tbody>
     </table>
+
+    <!-- Forms -->
+    <form>
+        <div>
+            <input type="text" placeholder="Enter your firstname">
+        </div>
+
+        <div>
+            <label>Lastname</label>
+            <input type="text" placeholder="Enter your lastname">
+        </div>
+
+        <div>
+            <label>Email</label>
+            <input type="email">
+        </div>
+
+        <div>
+            <label>Password</label>
+            <input type="password">
+        </div>
+
+        <div>
+            <!-- First checkbox -->
+            <input type="checkbox">
+            <label>Apple</label>
+
+            <br>
+
+            <!-- Second checkbox -->
+            <input type="checkbox">
+            <label>Mango</label>
+
+            <br>
+
+            <!-- Third checkbox -->
+            <input type="checkbox">
+            <label>Watermelon</label>
+        </div>
+
+        <!-- Radios -->
+        <div>
+            <label>Pick your gender</label> <br>
+            <!-- First radio -->
+            <input type="radio" value="male" name="male">
+            <label>Male</label>
+
+            <br>
+
+            <!-- Second radio -->
+            <input type="radio" value="female" name="female">
+            <label>Female</label>
+
+            <br>
+        </div>
+    </form>
 
     <div class="" style="margin-top: 500px;"></div>
 </body>
