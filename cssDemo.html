@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to CSS</title>
+    <style>
+        header {
+            background-color: red;
+            color: blue;
+        }
+
+        .another_text {
+            font-size: 20px;
+            background: black;
+            color: #ffffff;
+            padding: 20px 30px;
+            width: 500px;
+        }
+
+        #newText {
+            text-decoration: underline;
+            text-transform: uppercase;
+            font-family: cursive;
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Methods of connecting your css to your html -->
+    <!-- 
+        1) Inline == using the style attribute directly in the tag
+        2) Internal == using the style tag in the head tag
+        3) External
+     -->
+
+    <!--  Methods of accessing html elements -->
+    <!-- 
+        1) Tagname
+        2) class
+        3) Id
+      -->
+    <!-- Navbar -->
+    <header>
+        <h2>Logo</h2>
+        <p>These are the nav items</p>
+    </header>
+
+
+    <!-- Another section -->
+    <p class="another_text">
+        Another section
+    </p>
+
+    <!-- New text -->
+    <p id="newText">
+        This is a new text
+    </p>
+</body>
+
+</html>
