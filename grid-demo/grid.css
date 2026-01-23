@@ -1,0 +1,25 @@
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 20px;
+    /* grid-template-rows: 1fr 1fr; */
+    background: #000;
+    height: 100vh;
+    width: 800px;
+    justify-content: center;
+    align-content: center;
+    
+    /* grid-column-gap: 10px; */
+    /* grid-row-gap: 20px; */
+}
+.box {
+    background: gray;
+    /* padding: 20px; */
+    /* margin-bottom: 20px; */
+    /* padding-bottom: 100px; */
+}
+
+.box-1 {
+    background: red;
+}

@@ -1,0 +1,78 @@
+
+.box {
+    width: 120px;
+    height: 120px;
+    background: #3498db;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:  25px;
+}
+
+/* Fade-in animation */
+.fade-in {
+    animation: fadeIn 2s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        scale: 0
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+/* pulse */
+#pulse {
+    margin-top: 10px;
+    animation: pulseAnim 5s linear infinite;
+}
+
+@keyframes pulseAnim {
+    0% {
+        transform: scale(.3);
+        border-radius: 100%;
+    }
+    50% {
+        background: yellow;
+    }
+    100% {
+        /* background: #d8401a; */
+        transform: scale(1.5);
+    }
+}
+
+/* Slide in animation */
+.slide-in {
+    animation: slideIn 1s ease-out forwards;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(200px);
+        opacity: 1;
+    }
+}
+
+/* Bounce animation */
+.bounce {
+    animation: bounceAnim .5s ease-out infinite;
+}
+
+@keyframes bounceAnim {
+   0%, 100% {
+    transform: translateY(0);
+   }
+   50% {
+    transform: translateY(30px);
+   }
+}
+
